@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  background: #a6a2a221;
+}
+.nav-bar {
+  display: flex;
+  width: 100%;
+  cursor: pointer;
+  position: sticky;
+  top: 0;
+  align-items: left;
+  justify-content: left;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  width: 70%;
+  align-items: center;
+}
+.nav-list li {
+  padding: 0 20px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-list li:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.nav-bar .right-nav {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.background {
+  background: rgba(2, 2, 2, 0.774) url("https://scontent.fkiv5-1.fna.fbcdn.net/v/t39.30808-6/242851416_1272249513261798_3198808964515026892_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=aDJ6v-BanPMAX-UduDC&_nc_ht=scontent.fkiv5-1.fna&oh=00_AfBLh0pBJ7K-i3A5zCr7EF92ZDOvQ1Q9g1IuBqWB3GRI0A&oe=6386C834");
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.background2 {
+  background: rgba(2, 2, 2, 0.774) url("../img/scolita.png");
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.firstSection {
+  height: 100vh;
+}
+.container{
+  display: flex;
+}
+
+
+.text-bg {
+  font-size: 25px;
+  margin: 8px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.yes{
+  display: flex;
+}
+.section-down {
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  width: 80%;
+  margin: auto;
+}
+
+.thumbnail {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.imgFluid {
+  height: 200px;
+  width: 200px;
+  border: 0;
+  box-shadow: 0 0 12px grey;
+  border-radius: 150px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+background-color: black;
+color:white;
+}
+.containerr{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+table, th, td {
+  border:1px solid white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
